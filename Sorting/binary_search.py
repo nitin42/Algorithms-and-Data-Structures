@@ -1,4 +1,10 @@
 def binary_search(arr, left, right, item):
+	'''
+	>>> arr = [1,2,3,4,5,6]
+	>>> item = 5
+	4
+	'''
+	
 	if right >= left:
 		mid = (left + right) / 2
 
@@ -14,9 +20,6 @@ def binary_search(arr, left, right, item):
 	else:
 		return -1
 
-arr = [1,2,3,4,5,6]
-item = 5
-
-r = binary_search(arr, 0, len(arr)-1, item)
-
-print r
+if __name__ == '__main__':
+	import doctest
+	doctest.testmod(verbose=True)
