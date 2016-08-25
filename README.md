@@ -13,4 +13,9 @@ def Algorithm(problem):
 		running_time = check_running_time(algorithm)
 
 	return algorithm 
+	
+$ python
+>>> import Algorithm
+Error: Not a package. Just a description
+
 ```
