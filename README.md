@@ -2,7 +2,7 @@
 Contains sorting, graph, divide &amp; conquer, greedy and mathematical algorithms. All the algorithms are implemented in Python programming language with proper tests.
 
 
-## Why algorithm and how they work?
+## Why algorithms and how they work?
 
 ```
 def Algorithm(problem):
