@@ -16,6 +16,6 @@ def Algorithm(problem):
 	
 $ python
 >>> import Algorithm
-Error: Not a package. Just a description
+Error: Not a package. Just a description!
 
 ```
